@@ -1,0 +1,184 @@
+/* Style of all the body*/
+body{
+    background-color: #fff;
+    color: #555;
+    font-size: medium;
+    padding: 0;
+    font-family:'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    align-items: center;
+    width: 95%;
+}
+
+/* Style for all the header*/
+.content-page{
+    align-items: center;
+}
+
+body {
+    margin: 50px;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0 200px 0 80px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  
+  .logo-img img{
+    padding: 5px;
+    width: 150px;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  .nav-bar li {
+    
+    margin-left: 30px;
+    display: inline;
+  
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: #333;
+  }
+    .nav-bar a:hover {
+    color: rgb(4, 40, 172);
+  }
+  
+  .content-body{
+    display: flex;
+  }
+
+  .background-img img{
+    width: 80%;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  .content-para p{
+    line-height: 2.2;
+    font-family:'poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 5px 0 10px 50px;
+    text-align: justify;
+
+  }
+
+  .content-para h1{
+    margin: 50px;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    background: linear-gradient(100deg, rgb(8, 0, 37)10%, rgb(18, 173, 184)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  .all-infos{
+    display: flex; 
+    margin: auto;
+    margin-top: 40px;
+    gap: 150px;
+    justify-content: space-between;
+    width: fit-content;
+    font-family: "poppins", sans-serif;
+  }
+
+  .all-infos p{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px;
+  }
+
+  .all-infos p a{
+    color:rgb(114, 110, 110);
+    text-decoration: none;
+  }
+
+  .all-infos a:hover{
+    color: rgb(2, 189, 202);
+  }
+
+  button{
+    background: linear-gradient(90deg, rgb(6, 0, 26)25%, rgb(1, 106, 114)100%);
+    border-radius: 50px;
+    padding: 10px;
+    width: 400px;
+    margin:50px;
+    color: #fff;
+    font-size: medium;
+    
+  }
+
+  button:hover{
+    background: linear-gradient(90deg, rgba(235,51,51,100%)0%, rgba(49,44,158,100%)100%);
+    transition: 1s;
+  }
+
+  .ligne{
+    border-bottom: 1px solid rgb(168, 165, 165);
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+
+/* Styling the footer*/
+footer .footer-elements{
+  display: flex;
+  gap : 30px;
+  margin: auto;
+  width: fit-content;
+  margin-top: 20px;
+
+}
+
+footer .footer-elements p{
+    padding-right: 20px;
+  }
+
+.footer-elements p a{
+  text-decoration: none; 
+  color:rgb(114, 110, 110);
+}
+
+.footer-elements p a:hover{
+  color: rgb(2, 189, 202);
+}
+
+footer .footer-elements .vertical1, .vertical2{
+  border-right: 2px solid rgb(173, 170, 170);
+}
+
+footer .copyright{
+  margin: auto;
+  width: fit-content;
+
+  margin-bottom: 40px;
+}
+
+.copyright p a{
+  text-decoration: none;
+  color:rgb(114, 110, 110);  
+}
+
+.copyright p a:hover{
+  color: #37e2f5;
+}
+
